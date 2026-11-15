@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="page-heading"><div><div class="eyebrow">EXPLAINABLE ANALYSIS</div><h1>Health <span>insights.</span></h1><p>A transparent rule-based prototype looks for notable changes in recent records.</p></div><span class="data-pill"><i data-lucide="sparkles"></i> RULE-BASED · NOT DIAGNOSTIC</span></section>
+<section class="insight-intro glass-card"><div class="insight-symbol"><i data-lucide="chart-no-axes-combined"></i></div><div><h2>Trend review, not prediction.</h2><p>Insights compare a few recent values with preceding values. Results depend on the amount and quality of data available.</p></div><button class="button button-outline" data-refresh-insights><i data-lucide="refresh-cw"></i> Refresh</button></section>
+<section class="insight-list" data-insights><div class="glass-card empty-state">Analyzing available history…</div></section>
+<div class="caution-banner"><i data-lucide="triangle-alert"></i><div><strong>Know the limits</strong><p>This feature is an unvalidated demonstration. It cannot diagnose, predict medical events, or determine readiness for duty. For a concern, follow approved mission medical protocols and contact medical support.</p></div></div>
+{% endblock %}
